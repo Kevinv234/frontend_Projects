@@ -276,13 +276,12 @@ hr{
   width:220px;
   font-weight:lighter;
   font-size: 12px;
-  
+  display:inline-block;
 }
 
 #privacy{
- 
   width: 60%;
-  
+  display:inline-block;
 }
 
 #final{
@@ -293,5 +292,14 @@ hr{
 }
 
 #usa{
-  float:right
+  float:right;
+  padding-right:5px;
+}
+
+#usap{
+  display: inline-block;
+  float:right;
+  font-weight: lighter;
+  font-size: 12px;
+  padding-top: 3px;
 }
