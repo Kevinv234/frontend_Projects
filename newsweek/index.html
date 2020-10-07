@@ -78,62 +78,72 @@
     <div class="container-fluid main-content">
       <div class="row">
         <!--Main-->
-        <div class="col-xs-12 col-md-9">
-          <div class="main-article-info">
-            <img src="./images/main/main_main.jpg"/>
-            <hr >
-            <div  class="mainData">
-              <h3 style="color:red;">U.S</h3>
-              <h1>JUSTICE DEPT. TO FORCE REFORMS</h1>
-              <p>"The residents of Ferguson have waited nearly a year for their city to adopt an agreement.</p>
+        <div class="col-md-9 main wrapping">
+          <div class="content-background">
+            <img class="img-responsive" src="./images/main/main_main.jpg"/>
+            <hr class="main-horizontal-divider">
+            <div  class="info-wrapper">
+              <h2 class="category-main"><a href="#">U.S</a></h2>
+              <h2 id="story">JUSTICE DEPT. TO FORCE REFORMS</h2>
+              <div class="summary">"The residents of Ferguson have waited nearly a year for their city to adopt an agreement.</div>
             </div>
             
           </div>
+
+          <!-- articles -->
+          <div class="row">
+          <!-- second article -->
+          <div class="col-xs-12 col-sm-6 sub-box vertical-divider">
+            <div class="sub-info">
+              <img src="images/main/main1.png"/>
+              <h2 class="category-main"><a href="#">U.S.</a></h3>
+              <h2 id="story">GRAVITATIONAL WAVES DETECTED, PROVING EIRNSTEIN RIGHT</h2>
+              <div class="summary">"This [was] truly a scientific moon shot, and we landed on the moon."</div>
+            </div>
+          </div>
+
+          <!-- third article -->
+          <div class="col-xs-12 col-sm-6 sub-box" id="sponsor-special">
+            <div id="blue-background">
+              <img class="image-responsive" src="images/main/main2.jpg"/>
+              <div class="sub-info">
+                <h2 class="category-main blue">SPONSOR INSIGHT</h2>
+                <h2 id="story">THE BEST UNIVERSITIES OF ASIA</h1>
+                <div class="summary">"Universities from Asia and Europe are challenging the best schools in the USA. 
+                  When it comes to choosing the right school then, the options we have never been mroe diverse..."</div>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
 
-         <!-- articles -->
-        <div class="row">
-          <!-- second article -->
-          <div class="col-xs-12 col-sm-6">
-            <div class="secondaryArticle">
-              <img src="images/main/main1.png"/>
-              <h3 style="color:red;">U.S.</h3>
-              <h1>GRAVITATIONAL WAVES DETECTED, PROVING EIRNSTEIN RIGHT</h1>
-              <p>"This [was] truly a scientific moon shot, and we landed on the moon."</p>
+        
+
+           <!--Side Menu-->
+        <div class="sidebar col-xs-12 col-md-3" >
+          <div class = "grey-background">
+            <div class="bullet-list">
+              <div class="headlines-title"> Latest Headlines</div>
+              <ul id="sidebar-list">
+                <li class="bullet"><a href="#">Harriet Harman: The New Law on Gender Pay was Labour's</a></li>
+                <li class="bullet"><a href="#">French Court Will Hear Facebook Nude Painting Case</a></li>
+                <li class="bullet"><a href="#">Rolf Haris Faces Seven Indecent Assault Charges</a></li>
+                <li class="bullet"><a href="#">U.K. Airbnb Host Rejects Israeli for 'Occupying Lands'</a></li>
+                <li class="bullet"><a href="#">Watch: Real Madrid's Pepe Gets Into Valentine's Spirit</a></li>
+                <li class="bullet"><a href="#">Indonesia BLocking Gay Emojis From Facebook, Whatsapp</a></li>
+                <li class="bullet"><a href="#">Mourinho and Woodward 'Cannot Have Spoken' - VanGaal</a></li>
+                <li class="bullet"><a href="#">Rwanda to Relocate Burundian Refugees</a></li>
+                <div class ="see-all">
+                  <button class="see-all-headlines" type="button">See All Headlines</button>
+                </div>
+                
+              </ul>
             </div>
-          </div>
-           <!-- third article -->
-           <div class="col-xs-12 col-sm-6 thirdAd">
-            <div class ="thirdAd">
-              <img src="images/main/main2.jpg"/>
-              <h3 style="color:lightblue;">SPONSOR INSIGHT</h3>
-              <h1>THE BEST UNIVERSITIES OF ASIA</h1>
-              <p>"Universities from Asia and Europe are challenging the best schools in the USA. 
-                When it comes to choosing the right school then, the options we have never been mroe diverse..."</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-        <!--Side Menu-->
-        <div class="col-xs-12 col-md-3">
-          <div class = "sideBar">
-            <ul>
-              <li>LATEST HEADLINES</li>
-              <li><a href="#">Harriet Harman: The New Law on Gender Pay was Labour's</a></li>
-              <li><a href="#">French Court Will Hear Facebook Nude Painting Case</a></li>
-              <li><a href="#">Rolf Haris Faces Seven Indecent Assault Charges</a></li>
-              <li><a href="#">U.K. Airbnb Host Rejects Israeli for 'Occupying Lands'</a></li>
-              <li><a href="#">Watch: Real Madrid's Pepe Gets Into Valentine's Spirit</a></li>
-              <li><a href="#">Indonesia BLocking Gay Emojis From Facebook, Whatsapp</a></li>
-              <li><a href="#">Mourinho and Woodward 'Cannot Have Spoken' - VanGaal</a></li>
-              <li><a href="#">Rwanda to Relocate Burundian Refugees</a></li>
-              <button class="btn btn-primary" type="submit">See All Headlines</button>
-            </ul>
           </div>
         </div>
       </div>
     </div>
+    
 
 
     <!-- Bootstrap core JavaScript
