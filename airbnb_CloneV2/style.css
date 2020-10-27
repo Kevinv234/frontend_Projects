@@ -7,3 +7,32 @@
     padding-left: 24px;
     padding-right: 24px;
 }
+
+#hero{
+    object-fit: cover;
+    height:500px;
+    width:600px;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+#articles{
+    position: relative;
+    width:95%;
+    
+}
+#smallHead{
+    font-size: 12 !important;
+}
+
+.listingsH{
+    list-style-type: none;
+    float:left;
+    
+}
+@media only screen and( max-width:992px){
+    #hero{
+        width:80%;
+        height:80%;
+        right:10px;
+    }
+}
