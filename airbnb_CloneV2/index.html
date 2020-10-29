@@ -7,11 +7,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <title>Press</title>
+    <title>Airbnb Newsroom</title>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-xl py-0 position-relative w-100" id="navbar">
+    <nav class="navbar navbar-expand-xl py-0 position-relative w-100 " id="navbar">
         <!-- nav for xl screens -->
         <div class="d-none d-xl-flex flex-grow-1" id="xlNavbar">
           <a class="navbar-brand pt-4 py-0 pr-0 pl-2 pb-3 text-black" href="#">Airbnb Newsroom</a>
@@ -31,7 +31,7 @@
 
     <!-- The following will work -->
 
-    <div class="container">
+    <div class="container pb-5">
       <div class="row">
         <div  class="col-12 col-lg-7 ">
           <img id="hero" src="./images/img1.jpg" class="rounded"/>
@@ -43,14 +43,14 @@
             <div >From Taking life to the road, to consously and sfely reconnecting with the places and the people that matter most,
               Airbnb and travleres predict what travel will look like in 2021.
             </div>
-            <div class="pt-5">October 15, 2020 · <a class="color:#008489">Destination, Stays </a></div>
+            <div class="pt-2">October 15, 2020 · <a href ="#" class="color:#008489">Destination</a>, <a href ="#" >Stays</a> </div>
           </div>
         </div>
       </div>
       <hr class="mt-4 mt-xl-5"/>
       <div class="row">
           <h2 class=" mb-3 pb-5 pl-3 pt-5 w-100" style="display: inline;">Latest News</h2>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 pl-5">
               <img class="rounded" id="articles"src ="./images/img3.jpg"/>
               <div>
                 <h3 class="mb-3 pt-4">Partnering with the Singapore Tourism Board to Promote Tourism Recovery</h3>
@@ -58,9 +58,9 @@
               <div>
                 Airbnb is partnering with Singapore Tourism Board to showcase the country through Singapore Virtual Trips, a dedicated landing page highlighting unique Online Experiences.
               </div>
-              <div id="smallHead" class=" pt-3">October 23, 2020 · Company, Policy</div>
+              <div id="smallHead" class=" pt-3">October 23, 2020 · <a href="#">Company</a>, <a href="#">Policy</a></div>
           </div>
-          <div class= "col-12 col-md-6">
+          <div class= "col-12 col-md-6 pl-5">
               <img class="rounded" id="articles"src="./images/img2.png"/>
               <div>
                 <h3 class="mb-3 pt-4">An Update on Trust</h3>
@@ -69,53 +69,138 @@
                 Tara Bunch shares an update on Airbnb’s progress in key areas to strengthen trust on the platform: Supporting our community, working with community stakeholders, curtailing large gatherings, and verification.
               </div>
               <div id="smallHead" class="pt-4">October 21, 2020 · 
-                <a>Destinations</a>, <a>Experiences</a>, <a>Policy</a></div>
+                <a href="#">Destinations</a>, <a href="#">Experiences</a>, <a href="#">Policy</a>
+              </div>
           </div>
       </div>
       <hr class="mt-4 mt-xl-5"/>
       <div class="row">
-        <div class="list-group pull-left w-100" role="tablist">
-          <ul class="listingsH">
-            <li href="#"><a>All</a></li>
-            <li href="#"><a>Company</a></li>
-            <li href="#"><a>Stays</a></li>
-            <li href="#"><a>Experiences</a></li>
-            <li href="#"><a>Open Homes</a></li>
-            <li href="#"><a>Policy</a></li>
-            <li href="#"><a>Community</a></li>
+        <div class="list-group pull-left w-100 d-xl-flex " role="tablist">
+          <ul class="listingsH d-inline-flex ">
+            <li class="" href="#"><a>All</a></li>
+            <li class ="pl-3" href="#"><a>Company</a></li>
+            <li class ="pl-3" href="#"><a>Stays</a></li>
+            <li class ="pl-3" href="#"><a>Experiences</a></li>
+            <li class ="pl-3" href="#"><a>Open Homes</a></li>
+            <li class ="pl-3" href="#"><a>Policy</a></li>
+            <li class ="pl-3"href="#"><a>Community</a></li>
           </ul>
         </div>
-        <div class= " col-12 col-sm-4 pl-5">
-          <h3 class="mb-3 pt-4">Desiginging trhe future of Airbnb</h3>
+        <div class= " col-12 col-sm-4 pl-5 pb-xl-5" >
+          <img class="rounded" id="articles"src="./images/img2.png"/>
+          <h3 class="mb-3 pt-4">Desiginging the Future of Airbnb</h3>
           <div>
             Today, we announce our engagment in a special collaboration wiht jone IVe and his partners at LoveForm,
             and the Airbnb team.
           </div>
+          <div id="smallHead" class="pt-4">October 23, 2020 · 
+            <a href="#">Company</a>
+          </div>
         </div>
-        <div class= " col-12 col-sm-4 pl-5">
+        <div class= " col-12 col-sm-4 pl-5 pb-xl-5">
+          <img class="rounded" id="articles"src="./images/img3.jpg"/>
           <h3 class="mb-3 pt-4">Nomadic Matts How-To Guide for becoming a Digital Nomad</h3>
           <div>Nomadic Matt shares advice on how to become a digital nomad – regardless of how far or near your travels take you.</div>
+          <div class="pt-2 pb-3 smallHead">October 21, 2020 · <a href="#" class="color:#008489">Destinations</a>, <a href ="#" >Stays</a> </div>
         </div>
-        <div class= " col-12 col-sm-4">
+        <div class= " col-12 col-sm-4 pl-5 pb-xl-5">
+          <img class="rounded" id="articles"src="./images/img4.jpeg"/>
           <h3 class="mb-3 pt-4">Airbnb and SF Travel Partner to Support San Franciscos Tourism Economy</h3> 
           <div>Airbnb and SF Travel are partnering to help people rediscover San Francisco and promote the local tourism economy.</div>
+          <div class="pt-2 pb-3 smallHead">October 21, 2020 · <a href="#" class="color:#008489">Destinations</a>, <a href ="#" >Stays</a> </div>
         </div>
-        <div class= " col-12 col-sm-4 pl-5">
+        <div class= " col-12 col-sm-4 pl-5 pb-xl-5">
+          <img class="rounded" id="articles"src="./images/img2.png"/>
           <h3 class="mb-3 pt-4">New Features to Help Hosts Prevent Unauthorized Parties</h3>
           <div>
             Today, we announce our engagment in a special collaboration wiht jone IVe and his partners at LoveForm,
             and the Airbnb team.
           </div>
+          <div class="pt-2 pb-5 smallHead">October 21, 2020 · <a href="#" class="color:#008489">Community</a> </div>
         </div>
-        <div class= " col-12 col-sm-4 pl-5">
+        <div class= " col-12 col-sm-4 pl-5 pb-xl-5">
+          <img class="rounded" id="articles"src="./images/img5.jpg"/>
           <h3 class="mb-3 pt-4">Missing Your Co-Workers? 10 Online Experiences to Beat the WFH Blues</h3> 
+          <div>With remote working here to stay, companies are embracing online team-building through Airbnb.</div>
+          <div class="pt-2 pb-5">October 15, 2020 · <a href ="#" class="color:#008489">Destinations</a>, <a href ="#" >Stays</a> </div>
         </div>
-        <div class= " col-12 col-sm-4">
+        <div class= " col-12 col-sm-4 pl-5 pb-xl-5">
+          <img class="rounded" id="articles"src="./images/img6.jpg"/>
           <h3 class="mb-3 pt-4">Airbnb Announces Progress on Efforts to Stop Parties and Large Gatherings</h3> 
+          <div>From taking life to the road, to consciously and safely reconnecting with the places and people that matter most, Airbnb and travelers predict what travel will look like in 2021.</div>
+          <div class="pt-2 pb-5">October 15, 2020 · <a href ="#" class="color:#008489">Destinations</a>, <a href ="#" >Stays</a> </div>
         </div>
 
+        <div class="col-12 d-flex justify-content-center">
+          <div class="btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active ">
+              <input type="checkbox" checked autocomplete="off"> More
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class ="container-fluid footerSty ">
+      <div class="row ">
+        <div class="col-12 col-sm-3 pl-5 pt-5">
+          <ul class="list-group listingsH">
+            <li ><a>About </a></li>
+            <li class="footList"><a>How Airbnb Works</a></li>
+            <li class="footList"><a>Airbnb Plus</a></li>
+            <li class="footList"><a>HotelTonight</a></li>
+            <li class="footList"><a>Airbnb for work</a></li>
+            <li class="footList"><a>Olympics</a></li>
+            <li class="footList"><a>Careers</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-12 col-sm-3 pt-5">
+          <ul class="list-group listingsH">
+            <li><a>Community</a></li>
+            <li class="footList"><a>Diversity & Belonging</a></li>
+            <li class="footList"><a>Against Discrimination</a></li>
+            <li class="footList"><a>Accessiblity</a></li>
+            <li class="footList"><a>Airbnb Associates</a></li>
+            <li class="footList"><a>Frontline Stays</a></li>
+            <li class="footList"><a>Invite friends</a></li>
+            <li class="footList"><a>Gift cards</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-3 pt-5">
+          <ul class="list-group listingsH">
+            <li><a>Hosting</a></li>
+            <li class="footList"><a>Host your home</a></li>
+            <li class="footList"><a>Host an online experience</a></li>
+            <li class="footList"><a>Host an experinece</a></li>
+            <li class="footList"><a>Message from CEO Brian Chesky</a></li>
+            <li class="footList"><a>Responsible Hosting</a></li>
+            <li class="footList"><a>Open Homes</a></li>
+            <li class="footList"><a>Resource Center</a></li>
+            <li class="footList"><a>Community Center</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-3 pr-5 pt-5">
+          <ul class="list-group listingsH">
+            <li><a>Support</a></li>
+            <li class="footList"><a>Updates for COVID-19</a></li>
+            <li class="footList"><a>Cancellation options</a></li>
+            <li class="footList" ><a>Neighborhood Support</a></li>
+            <li class="footList"><a>Trust and Safety</a></li>
+          </ul>
+        </div>
+        <div class="col-12 pt-5 pl-5">
+          <span>Disclaimer</span>
+          <div class="footList ">
+            <p class="text-left">
+              The Airbnb Newsroom is aimed at journalists. All Homes and Experiences referenced on the Airbnb Newsroom are intended purely to inspire and illustrate. Airbnb does not recommend or endorse specific Home or Experience listings on the Airbnb platform.
+            </p>
+          </div>
+          <hr class="mt-4 mt-xl-5"/>
+        </div>
         
       </div>
+      
     </div>
   
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
