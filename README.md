@@ -10,6 +10,7 @@ In no way shap or form are the projects that are listed below, are used for prof
 
 |  Project   |  Link  | 
 |----------- |--------|
-| Apple Clone |  https://romantic-stonebraker-c2e634.netlify.app |   
+| Apple Clone | https://musing-lichterman-656348.netlify.app |   
 | Newsweek Clone | https://vigorous-turing-dbc923.netlify.app   |  
-| Air bnb Clone   |   |  
+| AirBnb Clone   |  https://eloquent-varahamihira-ba818b.netlify.app  | 
+| AirBnb Newsroom Clone   |  https://mystifying-lovelace-10d521.netlify.app |  
